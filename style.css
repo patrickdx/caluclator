@@ -1,0 +1,65 @@
+body {
+    font-family: "Trebuchet MS", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.calculator {
+    background-color: #fff;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    text-align: right;
+    padding: 10px;
+    border: 1px solid #000000;
+    height: 100px;
+    padding: 10px 20px;
+}
+
+#input-display {
+    font-size: 3rem;    
+}
+#expression-display {
+    font-size: 1.5rem;
+    color: #555;
+    min-height: 28px;       /* always show this line */
+}
+#controls {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 25%;         /* Four buttons per row */
+    height: 60px;
+    font-size: 1.5rem;
+    border: 1px solid #585757;
+    cursor: pointer;   
+}
+.btn:hover {
+    background-color: #e0e0e0;
+}
+.btn:active {
+    background-color: #d0d0d0;
+}
+
+.btn.function {
+    width: 50%;     /* Two buttons per row */
+    background-color: #3a44cf3a;
+}
+.btn.function:hover {
+    background-color: #3a44cf5c;
+}
+.btn.function:active {
+    background-color: #3a44cf7a;
+}   
+
+
